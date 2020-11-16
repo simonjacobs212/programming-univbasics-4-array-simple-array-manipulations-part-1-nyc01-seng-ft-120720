@@ -14,6 +14,7 @@ end
 
 def pop_with_args(array, number)
   array.pop(number)
+  binding.pry
 end
 
 def using_shift
